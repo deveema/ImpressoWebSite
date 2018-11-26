@@ -29,6 +29,10 @@ body {
 	font-size: 12px;
 }
 
+.bold-text {
+	font-weight: bold;
+}
+
 .container {
 	margin-bottom: 100px;
     margin-top: 30px;
@@ -90,7 +94,7 @@ body {
     width: 420px;
 }
 
-.main-block .phone .social-icons img {
+.social-icons img {
 	margin: 0 5px;
 }
 
@@ -123,4 +127,48 @@ body {
 #Features .phones-image {
 	margin-top: 25px;
     margin-bottom: 50px;
+}
+
+#Whitepaper button, #Bounty button, #Team button, #StayInTouch button{
+	display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    border: solid white 1px;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+
+}
+
+#Whitepaper button:hover, #Bounty button:hover, #Team button:hover, #StayInTouch button:hover{
+    border-color: black;
+    background: black;
+}
+
+#Whitepaper button:focus, #Bounty button:focus, #Team button:focus, #StayInTouch button:focus {
+	outline: unset;
+}
+
+#Partners .carousel-inner img {
+	margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+#Team img {
+	height: 150px;
+	border-radius: 100%;
+	margin-bottom: 15px;
+}
+
+#AsSeenOn .carousel-item img {
+    height: 90px;
+    display: inline-block!important;
+    margin: 0 30px 30px 30px;
+}
+
+#AsSeenOn .carousel-item .carousel-group {
+	margin-left: auto;
+	margin-right: auto;
 }

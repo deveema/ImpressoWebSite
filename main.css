@@ -8,6 +8,10 @@ body {
 	text-transform: uppercase;
 }
 
+.lowercase-text {
+    text-transform: lowercase;
+}
+
 .white-text {
 	color: white;
 }
@@ -38,6 +42,10 @@ body {
     margin-top: 30px;
 }
 
+#MainBlock {
+    margin-top: 70px;
+}
+
 #SiteBackground {
 	min-height: 100%;
     min-width: 1024px;
@@ -48,6 +56,68 @@ body {
     left: 0;
 }
 
+/* header */
+.navbar {
+    background-color: black;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #D39AF6;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .dropbtn {   
+    border: none;
+    outline: none;
+    color: white;
+    padding: 12px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown .dropbtn:hover {   
+    color: #D39AF6;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* main block */
 .impresso-title {
 	margin: 5px;
 }

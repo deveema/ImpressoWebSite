@@ -133,6 +133,11 @@ body {
     font-size: 14px;
 }
 
+.main-block #countdown {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
 .main-block .token-bw img {
 	margin-top: 70px;
     width: 170px;
